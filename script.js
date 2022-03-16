@@ -14,12 +14,12 @@ const getWeather = () => {
     fetch(api)
     .then((res) => res.json())
     .then((data) =>{
-      tempreture.innerHTML = `${data.main.temp}<span>&#8451;</span>`
+      tempreture.innerHTML = `${data.main.temp}<span class="sym" >&#8451;</span>`
         cityName.innerHTML = data.name
      description.innerHTML = data.weather[0].description
      let icon = data.weather[0].icon
      let imageUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`
-     imgg.innerHTML = `<img src="${imageUrl}"/>`
+     imgg.innerHTML = `<img class="img" src="${imageUrl}"/>`
 
 
     })

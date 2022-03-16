@@ -10,6 +10,11 @@ body{
 }
 .container{
     width: 60%;
+    background-color: rgb(29, 29, 61, 0.6);
+    margin: 2rem 15rem;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 1rem;
 }
 .formclass{
    justify-content: center;
@@ -25,18 +30,19 @@ body{
     padding: 0.4rem;
     font-size: 1.4rem;
     width: 70%;
-    background-color: rgb(29, 29, 61, 0.3);
+    background-color: rgb(240, 248, 255, 0.3);
     color: white;
     border: none;
     border-radius: 0.3rem;
     text-align: center;
+    outline: none;
 
 }
 ::placeholder{
     color: white;
 }
 .btnn{
-    background-color: rgb(255, 255, 255, 0.9);
+    background-color: rgb(255, 255, 255);
     width: 10%;
     padding: 0.4rem;
     font-size: 1.4rem;
@@ -46,5 +52,28 @@ body{
 }
 
 .forcast{
-    
+    text-align: center;
+}
+
+#cityName{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: white;
+}
+.img{
+    width: 12rem;
+}
+.sym{
+    font-weight: lighter;
+    font-size: 2rem;
+}
+#tempValue{
+    font-size: 2.5rem;
+    color: aliceblue;
+    font-weight: bold;
+}
+#des{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: lighter;
 }
