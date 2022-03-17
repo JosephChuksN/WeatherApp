@@ -14,7 +14,10 @@ body{
     margin: 2rem 15rem;
     border: none;
     border-radius: 0.3rem;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
+}
+.weather{
+    color: white;
 }
 .formclass{
    justify-content: center;
@@ -107,4 +110,3 @@ body{
        font-size: 0.8rem;
    }
   }
-  
